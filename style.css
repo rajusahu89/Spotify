@@ -1,0 +1,90 @@
+body{
+background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 55px;
+    color: white;
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 75%;
+    margin: 23px auto;
+    border-radius: 12px;
+    background-image: url("logo5.jpg");
+}
+#scroll{
+    width: 90vw;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 12px;
+   
+}
+.icons i{
+    cursor: pointer;
+}
+.songitem{
+    display: flex;
+    
+    height: 30px;
+    background-color:white;
+    width: 55%;
+    color:black;
+    margin: 25px 20px;
+    text-align: center;
+   justify-content: space-between;
+   border-radius: 10px;
+  
+}
+ .let{
+     margin-top: 8px;
+ }
+ #gif img{
+     width: 100px;
+    
+     
+ }
+  #gif{
+      position: absolute;
+      opacity: 0;
+      transition: opacity 0.8s ease-in;
+      
+  }
